@@ -1,0 +1,27 @@
+{
+  "name": "curso-bot",
+  "version": "1.0.0",
+  "description": "Código desenvolvido durante o curso Chatbot para Telegram com Node + 3 Projetos <https://www.udemy.com/course/chatbot-para-telegram-com-node>.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscojsc/curso-bot.git"
+  },
+  "keywords": [
+    "curso-bot",
+    "chatbot",
+    "telegram"
+  ],
+  "author": "Francisco Chaves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franciscojsc/curso-bot/issues"
+  },
+  "homepage": "https://github.com/franciscojsc/curso-bot#readme",
+  "dependencies": {
+    "telegraf": "3.17.3"
+  }
+}
