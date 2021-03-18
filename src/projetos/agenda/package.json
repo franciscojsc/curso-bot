@@ -1,0 +1,29 @@
+{
+  "name": "agenda",
+  "version": "1.0.0",
+  "description": "Chatbot de agenda no Telegram",
+  "main": "agenda.js",
+  "scripts": {
+    "start": "concurrently \"json-server --watch db.json --port 3001\" \"node agenda.js\"",
+    "dev": "concurrently \"json-server --watch db.json --port 3001\" \"nodemon agenda.js --ignore 'db.json'\""
+  },
+  "keywords": [
+    "agenda",
+    "bot",
+    "chatbot",
+    "telegram"
+  ],
+  "author": "Francisco Chaves",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.17.1",
+    "concurrently": "^6.0.0",
+    "json-server": "^0.16.3",
+    "moment": "2.20.1",
+    "node-schedule": "1.3.0",
+    "telegraf": "3.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
